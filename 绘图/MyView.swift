@@ -25,11 +25,9 @@ class MyView: UIView {
     
     override func drawRect(rect: CGRect) {
         
-       
-        //// Color Declarations
         let color = UIColor(red: 0.988, green: 0.290, blue: 0.000, alpha: 1.000)
         
-        //// Bezier Drawing
+
         var bezierPath = UIBezierPath()
         bezierPath.moveToPoint(CGPointMake(12.61, 0.5))
         bezierPath.addCurveToPoint(CGPointMake(12.61, 8.34), controlPoint1: CGPointMake(11.16, 8.34), controlPoint2: CGPointMake(-16.4, 8.34))
@@ -39,7 +37,7 @@ class MyView: UIView {
         bezierPath.stroke()
         
         
-        //// Bezier 2 Drawing
+    
         var bezier2Path = UIBezierPath()
         bezier2Path.moveToPoint(CGPointMake(13.5, 9.5))
         bezier2Path.addCurveToPoint(CGPointMake(8.5, 17.5), controlPoint1: CGPointMake(8.5, 17.5), controlPoint2: CGPointMake(14.5, 12.5))
@@ -49,7 +47,6 @@ class MyView: UIView {
         bezier2Path.stroke()
         
         
-        //// Bezier 3 Drawing
         var bezier3Path = UIBezierPath()
         bezier3Path.moveToPoint(CGPointMake(19.5, 8.5))
         bezier3Path.addCurveToPoint(CGPointMake(5.5, 27.5), controlPoint1: CGPointMake(16.5, 17.5), controlPoint2: CGPointMake(5.5, 27.5))
@@ -58,7 +55,7 @@ class MyView: UIView {
         bezier3Path.stroke()
         
         
-        //// Bezier 4 Drawing
+    
         var bezier4Path = UIBezierPath()
         bezier4Path.moveToPoint(CGPointMake(6.5, 12.5))
         bezier4Path.addCurveToPoint(CGPointMake(15.5, 22.5), controlPoint1: CGPointMake(16.5, 23.5), controlPoint2: CGPointMake(15.5, 22.5))

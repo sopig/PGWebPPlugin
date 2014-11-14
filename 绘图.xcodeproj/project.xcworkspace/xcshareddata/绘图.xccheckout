@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C94200CF-D152-490E-98BB-DAFE67E812E6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>绘图</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>46B69A361251AFC14ED2B867EA81E23A2038FA5D</key>
+		<string>github.com:ddapps/swift_drawing.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>绘图.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>46B69A361251AFC14ED2B867EA81E23A2038FA5D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:ddapps/swift_drawing.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>46B69A361251AFC14ED2B867EA81E23A2038FA5D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>46B69A361251AFC14ED2B867EA81E23A2038FA5D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>%E7%BB%98%E5%9B%BE</string>
+		</dict>
+	</array>
+</dict>
+</plist>
