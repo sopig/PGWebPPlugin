@@ -337,14 +337,14 @@
 			baseConfigurationReference = 58A38E6C585FC901A35A7583 /* Pods-jenkinsTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Sanxian Transform(Beijing)Network Technology Co., Ltd.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sanxian Transform(Beijing)Network Technology Co., Ltd.";
+				CODE_SIGN_IDENTITY = "iPhone Developer: shai chen (VN2N9U46J9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: shai chen (VN2N9U46J9)";
 				INFOPLIST_FILE = jenkinsTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiuxian.jenkinsTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "dc03d2d8-7c6e-4d32-ae20-9fa6e4822c9f";
+				PROVISIONING_PROFILE = "8a82adfb-bc1e-46ec-8bce-ac2c9b3446b8";
 			};
 			name = Debug;
 		};
@@ -353,14 +353,14 @@
 			baseConfigurationReference = D3A225CC2567C68CE5FD2DBE /* Pods-jenkinsTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Sanxian Transform(Beijing)Network Technology Co., Ltd.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sanxian Transform(Beijing)Network Technology Co., Ltd.";
+				CODE_SIGN_IDENTITY = "iPhone Developer: shai chen (VN2N9U46J9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: shai chen (VN2N9U46J9)";
 				INFOPLIST_FILE = jenkinsTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiuxian.jenkinsTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "dc03d2d8-7c6e-4d32-ae20-9fa6e4822c9f";
+				PROVISIONING_PROFILE = "8a82adfb-bc1e-46ec-8bce-ac2c9b3446b8";
 			};
 			name = Release;
 		};
