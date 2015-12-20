@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		203D9815027D3F3405C53417 /* libPods-jenkinsTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2925B33FB6BE663210F3B603 /* libPods-jenkinsTest.a */; };
+		A55085AC1C26A830007B8455 /* CPS.plist in Resources */ = {isa = PBXBuildFile; fileRef = A55085AB1C26A830007B8455 /* CPS.plist */; };
 		A5F2B8D01C2647E1006DF880 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F2B8CF1C2647E1006DF880 /* main.m */; };
 		A5F2B8D31C2647E1006DF880 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F2B8D21C2647E1006DF880 /* AppDelegate.m */; };
 		A5F2B8D61C2647E1006DF880 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F2B8D51C2647E1006DF880 /* ViewController.m */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		2925B33FB6BE663210F3B603 /* libPods-jenkinsTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jenkinsTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A38E6C585FC901A35A7583 /* Pods-jenkinsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jenkinsTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jenkinsTest/Pods-jenkinsTest.debug.xcconfig"; sourceTree = "<group>"; };
+		A55085AB1C26A830007B8455 /* CPS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CPS.plist; sourceTree = "<group>"; };
 		A5F2B8CB1C2647E1006DF880 /* jenkinsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jenkinsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F2B8CF1C2647E1006DF880 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5F2B8D11C2647E1006DF880 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				A5F2B8DC1C2647E1006DF880 /* LaunchScreen.storyboard */,
 				A5F2B8DF1C2647E1006DF880 /* Info.plist */,
 				A5F2B8CE1C2647E1006DF880 /* Supporting Files */,
+				A55085AB1C26A830007B8455 /* CPS.plist */,
 			);
 			path = jenkinsTest;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 				TargetAttributes = {
 					A5F2B8CA1C2647E1006DF880 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = X42BXB2MQU;
 					};
 				};
 			};
@@ -164,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5F2B8DE1C2647E1006DF880 /* LaunchScreen.storyboard in Resources */,
+				A55085AC1C26A830007B8455 /* CPS.plist in Resources */,
 				A5F2B8DB1C2647E1006DF880 /* Assets.xcassets in Resources */,
 				A5F2B8D91C2647E1006DF880 /* Main.storyboard in Resources */,
 			);
@@ -337,7 +342,7 @@
 			baseConfigurationReference = 58A38E6C585FC901A35A7583 /* Pods-jenkinsTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Sanxian Transform(Beijing)Network Technology Co., Ltd.";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sanxian Transform(Beijing)Network Technology Co., Ltd.";
 				INFOPLIST_FILE = jenkinsTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -353,7 +358,7 @@
 			baseConfigurationReference = D3A225CC2567C68CE5FD2DBE /* Pods-jenkinsTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Sanxian Transform(Beijing)Network Technology Co., Ltd.";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sanxian Transform(Beijing)Network Technology Co., Ltd.";
 				INFOPLIST_FILE = jenkinsTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
