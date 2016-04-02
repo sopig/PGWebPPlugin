@@ -6,7 +6,7 @@
 
 #import "STWebPStreamingDecoder.h"
 
-#import <WebP/decode.h>
+#import <libwebp/decode.h>
 
 NSString * const STWebPErrorDomain = @"STWebP";
 

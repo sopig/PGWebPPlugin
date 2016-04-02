@@ -11,5 +11,6 @@ Pod::Spec.new do |s|
   s.requires_arc    = true
   
   s.source_files = 'src/*.*'
+  s.dependency =  { :git => 'https://github.com/sopig/libwebp.git'}
   
 end
